@@ -1,0 +1,134 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(imge/3400828.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 0px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.reg{
+    display: inline-block;
+    margin-right: 30px;
+    width: 110px;
+    height: 55px;
+    border: 2px solid #7559c0;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.aft{
+    display: inline-block;
+    width: 110px;
+    height: 55px;
+    border: 2px solid #7559c0;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav{
+    position: fixed;
+    top: 45px;
+    left: 1600px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(112, 33, 216);
+}
+
+.reg:hover{
+    background-color: #7559c0;
+    transition: 0.5s;
+    a{
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.aft:hover{
+    background-color: #7559c0;
+    transition: 0.5s;
+    a{
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.PC{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.game{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(to bottom right, blue, purple, rgb(0, 153, 255), purple, blue, transparent 95%);
+}
+img{
+    width: 230px;
+    display: inline-block;
+}
+
+
+img{
+    width: 215px;
+    padding: 10px;
+    display: flex;
+}
+
+.buy{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: 244px;
+    right: 220px;
+}
+.buy a{
+    text-decoration: none;
+    color: white;
+}
+
+.platy{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 244px;
+    right: 205px;
+}
+
+.history{
+    font-size: 16px;
+    padding-top: 70px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}

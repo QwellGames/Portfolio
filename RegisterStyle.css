@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imge/Задний\ фон.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.register{
+    border: solid black 4px;
+    border-radius: 60px;
+    backdrop-filter: blur(5px);
+    width: 450px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    overflow: hidden;
+    animation: Register 5s ease infinite;
+}
+
+.register h1{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+label{
+    color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;        
+    padding-left: 10px;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.2);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    display: inline-block;
+    width: 390px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    left: 760px;
+    bottom: 200px;
+}
+
+a{
+    font-size: 25px;
+    align-content: center;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    color: black;
+}
+
+.akk{
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+.btn{
+    display: inline-block;
+    width: 390px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    left: 365px;
+    bottom: 70px;
+}
+
+@keyframes Register {
+    0% {border-color: black;}
+    25% {border-color: blueviolet;}
+    50% {border-color: blue;}
+    75% {border-color: #d63bd6;}
+    100% {border-color: #29071f;}
+}
+ 
